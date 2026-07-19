@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: AI Engineering Handbook Discussion
+    url: https://github.com/your-org/AI-Engineering-Handbook/discussions
+    about: Please ask questions and start discussions here.
+  - name: Security Issue
+    url: https://github.com/your-org/AI-Engineering-Handbook/security/policy
+    about: Report security vulnerabilities here.
