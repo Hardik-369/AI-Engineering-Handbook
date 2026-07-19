@@ -1,1 +1,0 @@
---8<-- "01_LLM_Foundations/Resources.md"

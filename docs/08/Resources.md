@@ -1,1 +1,0 @@
---8<-- "08_AI_System_Design/Resources.md"

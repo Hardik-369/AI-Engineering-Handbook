@@ -1,1 +1,0 @@
---8<-- "06_Prompt_Caching/InterviewQuestions.md"

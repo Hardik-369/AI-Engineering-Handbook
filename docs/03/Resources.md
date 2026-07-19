@@ -1,1 +1,0 @@
---8<-- "03_Context_Engineering/Resources.md"
