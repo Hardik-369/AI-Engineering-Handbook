@@ -1,0 +1,1 @@
+--8<-- "10_Projects/Resources.md"

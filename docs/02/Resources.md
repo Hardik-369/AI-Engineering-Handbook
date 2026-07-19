@@ -1,0 +1,1 @@
+--8<-- "02_Prompt_Engineering/Resources.md"

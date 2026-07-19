@@ -1,0 +1,1 @@
+--8<-- "01_LLM_Foundations/Exercises.md"

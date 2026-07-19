@@ -1,0 +1,1 @@
+--8<-- "03_Context_Engineering/Exercises.md"

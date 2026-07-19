@@ -1,0 +1,1 @@
+--8<-- "06_Prompt_Caching/Examples.md"

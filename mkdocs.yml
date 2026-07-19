@@ -1,0 +1,176 @@
+site_name: AI Engineering Handbook
+site_description: The definitive free handbook for mastering modern AI engineering — LLM foundations, prompt engineering, context engineering, loop engineering, graph engineering, prompt caching, agent engineering, AI system design, production AI, and 15 hands-on projects.
+site_url: https://hardik-369.github.io/AI-Engineering-Handbook/
+repo_url: https://github.com/Hardik-369/AI-Engineering-Handbook
+repo_name: Hardik-369/AI-Engineering-Handbook
+edit_uri: edit/main/
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+  icon:
+    repo: fontawesome/brands/github
+    admonition:
+      note: octicons/tag-16
+      tip: octicons/light-bulb-16
+      warning: octicons/alert-16
+      danger: octicons/flame-16
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Hardik-369
+  generator: false
+
+copyright: Copyright &copy; 2026 — MIT License
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      enabled: false
+  - exclude:
+      glob:
+        - "*.py"
+        - "*.json"
+        - "*.yml"
+        - "*.yaml"
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets:
+      base_path: ["docs", "."]
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - tables
+  - toc:
+      permalink: true
+  - attr_list
+  - md_in_html
+
+nav:
+  - Home: index.md
+  - "01. LLM Foundations":
+    - "Overview": "01/README.md"
+    - "Exercises": "01/Exercises.md"
+    - "Examples": "01/Examples.md"
+    - "Interview Questions": "01/InterviewQuestions.md"
+    - "Best Practices": "01/BestPractices.md"
+    - "Cheat Sheet": "01/CheatSheet.md"
+    - "Resources": "01/Resources.md"
+    - "Project": "01/Project.md"
+  - "02. Prompt Engineering":
+    - "Overview": "02/README.md"
+    - "Exercises": "02/Exercises.md"
+    - "Examples": "02/Examples.md"
+    - "Interview Questions": "02/InterviewQuestions.md"
+    - "Best Practices": "02/BestPractices.md"
+    - "Cheat Sheet": "02/CheatSheet.md"
+    - "Resources": "02/Resources.md"
+    - "Project": "02/Project.md"
+  - "03. Context Engineering":
+    - "Overview": "03/README.md"
+    - "Exercises": "03/Exercises.md"
+    - "Examples": "03/Examples.md"
+    - "Interview Questions": "03/InterviewQuestions.md"
+    - "Best Practices": "03/BestPractices.md"
+    - "Cheat Sheet": "03/CheatSheet.md"
+    - "Resources": "03/Resources.md"
+    - "Project": "03/Project.md"
+  - "04. Loop Engineering":
+    - "Overview": "04/README.md"
+    - "Exercises": "04/Exercises.md"
+    - "Examples": "04/Examples.md"
+    - "Interview Questions": "04/InterviewQuestions.md"
+    - "Best Practices": "04/BestPractices.md"
+    - "Cheat Sheet": "04/CheatSheet.md"
+    - "Resources": "04/Resources.md"
+    - "Project": "04/Project.md"
+  - "05. Graph Engineering":
+    - "Overview": "05/README.md"
+    - "Exercises": "05/Exercises.md"
+    - "Examples": "05/Examples.md"
+    - "Interview Questions": "05/InterviewQuestions.md"
+    - "Best Practices": "05/BestPractices.md"
+    - "Cheat Sheet": "05/CheatSheet.md"
+    - "Resources": "05/Resources.md"
+    - "Project": "05/Project.md"
+  - "06. Prompt Caching":
+    - "Overview": "06/README.md"
+    - "Exercises": "06/Exercises.md"
+    - "Examples": "06/Examples.md"
+    - "Interview Questions": "06/InterviewQuestions.md"
+    - "Best Practices": "06/BestPractices.md"
+    - "Cheat Sheet": "06/CheatSheet.md"
+    - "Resources": "06/Resources.md"
+    - "Project": "06/Project.md"
+  - "07. Agent Engineering":
+    - "Overview": "07/README.md"
+    - "Exercises": "07/Exercises.md"
+    - "Examples": "07/Examples.md"
+    - "Interview Questions": "07/InterviewQuestions.md"
+    - "Best Practices": "07/BestPractices.md"
+    - "Cheat Sheet": "07/CheatSheet.md"
+    - "Resources": "07/Resources.md"
+    - "Project": "07/Project.md"
+  - "08. AI System Design":
+    - "Overview": "08/README.md"
+    - "Exercises": "08/Exercises.md"
+    - "Examples": "08/Examples.md"
+    - "Interview Questions": "08/InterviewQuestions.md"
+    - "Best Practices": "08/BestPractices.md"
+    - "Cheat Sheet": "08/CheatSheet.md"
+    - "Resources": "08/Resources.md"
+    - "Project": "08/Project.md"
+  - "09. Production AI":
+    - "Overview": "09/README.md"
+    - "Exercises": "09/Exercises.md"
+    - "Examples": "09/Examples.md"
+    - "Interview Questions": "09/InterviewQuestions.md"
+    - "Best Practices": "09/BestPractices.md"
+    - "Cheat Sheet": "09/CheatSheet.md"
+    - "Resources": "09/Resources.md"
+    - "Project": "09/Project.md"
+  - "10. Projects":
+    - "Overview": "10/README.md"
+    - "Exercises": "10/Exercises.md"
+    - "Examples": "10/Examples.md"
+    - "Interview Questions": "10/InterviewQuestions.md"
+    - "Best Practices": "10/BestPractices.md"
+    - "Cheat Sheet": "10/CheatSheet.md"
+    - "Resources": "10/Resources.md"
+    - "Project Specifications": "10/Project.md"
+  - Cheatsheets: "cheatsheets/README.md"
+  - Papers: "papers/README.md"
+  - Resources: "resources/README.md"
