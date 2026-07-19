@@ -50,12 +50,6 @@ plugins:
   - search
   - git-revision-date-localized:
       enabled: false
-  - exclude:
-      glob:
-        - "*.py"
-        - "*.json"
-        - "*.yml"
-        - "*.yaml"
 
 markdown_extensions:
   - admonition
